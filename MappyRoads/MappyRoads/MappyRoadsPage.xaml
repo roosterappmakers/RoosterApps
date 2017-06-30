@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps" xmlns:local="clr-namespace:MappyRoads" x:Class="MappyRoads.MappyRoadsPage">
+    <Grid>
+        <maps:Map x:Name="MyMap" IsShowingUser="true" MapType="Street" HasZoomEnabled="true">
+        </maps:Map>
+       <!-- <StackLayout Orientation="Vertical">
+            <StackLayout Margin="10,40,0,0" HorizontalOptions="CenterAndExpand">
+                <SearchBar Placeholder="Search" BackgroundColor="White" 
+                    FontSize="18" WidthRequest="600"
+                    >
+                </SearchBar>
+               
+            </StackLayout>
+
+        </StackLayout>-->
+    </Grid>
+</ContentPage>
