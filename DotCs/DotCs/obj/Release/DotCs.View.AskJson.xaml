@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DotCs.AskJson" Title="JSON">
+	<ContentPage.Content>
+		<StackLayout>
+			<Label Text="Paste the Json Response below:"
+			FontSize="20" Margin="5,0"/>
+			<Editor x:Name="Responseeditor" BackgroundColor="White" Margin="5,5,5,5" VerticalOptions="FillAndExpand"
+				/>
+
+			<Button Text="Create" Clicked="DoneClicked"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

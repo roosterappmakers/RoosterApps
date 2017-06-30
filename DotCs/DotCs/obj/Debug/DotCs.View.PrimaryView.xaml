@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:DotCs" x:Class="DotCs.PrimaryView" Title="Workplace">
+	<ContentPage.BindingContext>
+		<local:PrimaryViewModel />
+	</ContentPage.BindingContext>
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical" Margin="20,0,20,0">
+			<Label FontAttributes="Italic" Margin="0,30" Text="Generate a C-Sharp File from the following:" HorizontalTextAlignment="Center" FontSize="20" />
+			<ScrollView>
+				<Grid>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="*" />
+						<ColumnDefinition Width="*" />
+					</Grid.ColumnDefinitions>
+					<Grid.RowDefinitions>
+						<RowDefinition Height="100" />
+						<RowDefinition Height="100" />
+						<RowDefinition Height="100" />
+					</Grid.RowDefinitions>
+					<StackLayout Grid.Row="0" Grid.Column="0" Orientation="Vertical" BackgroundColor="Maroon" Margin="0,5,5,5">
+						<StackLayout.GestureRecognizers>
+							<TapGestureRecognizer Tapped="JsonButtonClicked" NumberOfTapsRequired="1">
+							</TapGestureRecognizer>
+						</StackLayout.GestureRecognizers>
+						<Label Text="J" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30">
+						</Label>
+						<Label Text="JSON" FontSize="20" HorizontalOptions="CenterAndExpand" TextColor="White" />
+					</StackLayout>
+					<StackLayout Grid.Row="0" Grid.Column="1" Orientation="Vertical" BackgroundColor="Green" Margin="5,5,0,5">
+						<StackLayout.GestureRecognizers>
+							<TapGestureRecognizer Tapped="SimpleButtonClicked" NumberOfTapsRequired="1">
+							</TapGestureRecognizer>
+						</StackLayout.GestureRecognizers>
+						<Label Text="C#" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30">
+						</Label>
+						<Label Text="C-Sharp" FontSize="20" HorizontalOptions="CenterAndExpand" TextColor="White" />
+					</StackLayout>
+					<StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Vertical" BackgroundColor="Purple" Margin="0,5,0,5">
+						<StackLayout.GestureRecognizers>
+							<TapGestureRecognizer Tapped="MVVMButtonClicked" NumberOfTapsRequired="1" />
+						</StackLayout.GestureRecognizers>
+						<Label Text="M" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30">
+						</Label>
+						<Label Text="MVVM" FontSize="20" HorizontalOptions="CenterAndExpand" TextColor="White" />
+					</StackLayout>
+					<StackLayout Grid.Row="2" Grid.Column="0" Orientation="Vertical" BackgroundColor="Teal" Margin="0,5,5,5">
+						<StackLayout.GestureRecognizers>
+							<TapGestureRecognizer Tapped="AbstractButtonClicked" NumberOfTapsRequired="1" />
+						</StackLayout.GestureRecognizers>
+						<Label Text="A" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30">
+						</Label>
+						<Label Text="ABSTRACT" FontSize="20" HorizontalOptions="CenterAndExpand" TextColor="White" />
+					</StackLayout>
+					<StackLayout Grid.Row="2" Grid.Column="1" Orientation="Vertical" BackgroundColor="Blue" Margin="5,5,0,5">
+						<StackLayout.GestureRecognizers>
+							<TapGestureRecognizer Tapped="InterfaceButtonClicked" NumberOfTapsRequired="1" />
+						</StackLayout.GestureRecognizers>
+						<Label Text="I" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30">
+						</Label>
+						<Label Text="INTERFACE" FontSize="20" HorizontalOptions="CenterAndExpand" TextColor="White" />
+					</StackLayout>
+				</Grid>
+			</ScrollView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

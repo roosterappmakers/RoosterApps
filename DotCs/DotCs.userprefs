@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{9A5D0106-2F6B-46C4-8244-39429CCA9BA9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DotCs/View/PrimaryView.xaml">
+    <Files>
+      <File FileName="DotCs/Model/IClipboard.cs" Line="6" Column="3" />
+      <File FileName="Droid/AndroidClipboard.cs" Line="17" Column="9" />
+      <File FileName="DotCs/View/Results.xaml" Line="35" Column="15" />
+      <File FileName="DotCs/View/Results.xaml.cs" Line="40" Column="51" />
+      <File FileName="DotCs/ViewModel/ResultViewModel.cs" Line="63" Column="99" />
+      <File FileName="DotCs/View/ResultView.xaml.cs" Line="12" Column="22" />
+      <File FileName="DotCs/View/AskAbstract.xaml.cs" Line="50" Column="9" />
+      <File FileName="DotCs/ViewModel/AbstractViewModel.cs" Line="19" Column="29" />
+      <File FileName="DotCs/obj/Debug/DotCs.View.AskAbstract.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="DotCs/View/AskAbstract.xaml" Line="45" Column="15" />
+      <File FileName="DotCs/View/PrimaryView.xaml.cs" Line="32" Column="1" />
+      <File FileName="DotCs/BaseClass/BaseCommand.cs" Line="14" Column="1" />
+      <File FileName="DotCs/View/PrimaryTabbedPage.xaml" Line="9" Column="14" />
+      <File FileName="DotCs/View/PrimaryView.xaml" Line="29" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ActiveRuntime="Mono 4.8.1 (22a39d7)" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DotCs.iOS PreferredExecutionTarget="7315B9C3-D50A-4F01-8455-A8BC620A4896" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DotCs.Droid PreferredExecutionTarget="Android.AVD_for_Nexus_4_by_Google" />
+</Properties>

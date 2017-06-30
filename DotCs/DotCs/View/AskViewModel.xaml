@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DotCs.AskViewModel" Title="View Model Class">
+	<ContentPage.Content>
+		<StackLayout>
+			<Label Text="Fill in the Class Details Below:" FontSize="20" Margin="5,0" />
+			<ScrollView HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+				<TableView HasUnevenRows="true">
+					<TableRoot>
+						<TableSection Title="Name">
+							<EntryCell x:Name="ECclassname" Placeholder="Class Name" />
+						</TableSection>
+
+						<TableSection Title="Properties">
+							<ViewCell Height="150">
+								<ScrollView>
+									<Editor x:Name="Eproperties" HeightRequest="150" VerticalOptions="CenterAndExpand">
+									</Editor>
+								</ScrollView>
+							</ViewCell>
+						</TableSection>
+						<TableSection Title="Methods">
+							<ViewCell Height="150">
+								<ScrollView>
+									<Editor x:Name="Emethods" HeightRequest="150" VerticalOptions="CenterAndExpand">
+									</Editor>
+								</ScrollView>
+							</ViewCell>
+						</TableSection>
+
+						<TableSection Title="Events">
+							<ViewCell Height="150">
+								<ScrollView>
+									<Editor x:Name="Eevents" HeightRequest="150" VerticalOptions="CenterAndExpand">
+									</Editor>
+								</ScrollView>
+							</ViewCell>
+						</TableSection>
+						
+					</TableRoot>
+				</TableView>
+			</ScrollView>
+			<Button Text="Create" VerticalOptions="EndAndExpand" Clicked="DoneClicked" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
