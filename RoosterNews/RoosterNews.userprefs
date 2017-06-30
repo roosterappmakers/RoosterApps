@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{1B3D30AF-B4E6-43CB-B8A1-FE9BE010F032}|Default">
+  <MonoDevelop.Ide.ItemProperties.RoosterNews.Droid PreferredExecutionTarget="Android.AVD_for_Nexus_4_by_Google" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RoosterNews/BaseClasses/BaseViewModel.cs">
+    <Files>
+      <File FileName="Droid/Resources/values/styles.xml" Line="2" Column="1" />
+      <File FileName="RoosterNews/Views/Articles.xaml" Line="1" Column="1" />
+      <File FileName="RoosterNews/Views/ArticleWeb.xaml" Line="1" Column="1" />
+      <File FileName="RoosterNews/Views/Articles.xaml.cs" Line="19" Column="35" />
+      <File FileName="RoosterNews/ViewModel/ArticleWebViewModel.cs" Line="24" Column="17" />
+      <File FileName="RoosterNews/BaseClasses/BaseViewModel.cs" Line="7" Column="38" />
+      <File FileName="RoosterNews/BaseClasses/BaseCommand.cs" Line="35" Column="4" />
+      <File FileName="RoosterNews/Model/sources.cs" Line="58" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RoosterNews.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B9798BAE-B63C-48B0-B494-BF4BB796416B" />
+</Properties>
